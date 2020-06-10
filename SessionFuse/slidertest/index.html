@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Slider Test</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse"></nav>
+  
+<div class="container-fluid text-center">    
+	<div class="row content">
+		<div class="col-sm-2 sidenav"></div>
+		<div class="col-sm-8 text-left"> 
+			<h1>Slider Test Site</h1>
+			<h4>Click and drag the slider below to change the value indicator</h4>
+			<hr>
+			<div class="slidecontainer">
+  				<input type="range" min="0" max="1000" value="0" class="slider" id="priceRange">
+				<br>
+  				<h3>Price: $<span id="price"></span></h3>
+				<h3>Active Storage: <span id="active"></span> GB</h3>
+				<h3>Archival Storage: <span id="archive"></span> TB</h3>
+			</div>
+		</div>
+		<div class="col-sm-2 sidenav"></div>
+	</div>
+</div>
+
+<footer></footer>
+<script src="js/slide.js"></script>
+</body>
+</html>
