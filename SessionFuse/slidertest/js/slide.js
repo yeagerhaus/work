@@ -1,4 +1,9 @@
 // JavaScript Document
+// slide.js - a variable slider that updates price tier information
+// for users trying to create personalized payment/storage plans
+// author: Cole Yeager
+// https://github.com/yeagerhaus
+
 var slider = document.getElementById("priceRange"),
 	output = document.getElementById("price"),
 	active = document.getElementById("active"),
