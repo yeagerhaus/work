@@ -5,16 +5,19 @@
 // https://github.com/yeagerhaus
 
 var slider = document.getElementById("priceRange"),
-	output = document.getElementById("price"),
+	price1 = document.getElementById("price")
+	price2 = document.getElementById("price2"),
 	active = document.getElementById("active"),
 	archive = document.getElementById("archive");
-	output.innerHTML = slider.value;
+	price1.innerHTML = slider.value;
+	price2.innerHTML = slider.value;
 	active.innerHTML = slider.value;
 	archive.innerHTML = slider.value;
 	
 
 	slider.oninput = function() {
-		output.innerHTML = this.value;
+		price1.innerHTML = this.value;
+		price2.innerHTML = this.value *1.5;
 		active.innerHTML = this.value * 3;
-		archive.innerHTML = this.value * 1.5;
+		archive.innerHTML = this.value * 4;
 	}
