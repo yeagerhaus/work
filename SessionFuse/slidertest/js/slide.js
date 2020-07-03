@@ -17,7 +17,7 @@ var slider = document.getElementById("priceRange"),
 
 	slider.oninput = function() {
 		price1.innerHTML = this.value;
-		price2.innerHTML = this.value *1.5;
+		price2.innerHTML = this.value * 1.5;
 		active.innerHTML = this.value * 3;
 		archive.innerHTML = this.value * 4;
 	}
