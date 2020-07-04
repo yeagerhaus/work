@@ -1,5 +1,5 @@
 # README
-<h1>THIS IS THE ORIGINAL ALPHA FOR FILEFUSE</h1>
+<h1>THIS IS THE ORIGINAL ALPHA FOR FILEFUSE LLC. (NOW HITSEND INC.)</h1>
 <h3>It is no longer in use but will remain in this Repo as as a proof of concept</h3>
 <br>
 <br>
