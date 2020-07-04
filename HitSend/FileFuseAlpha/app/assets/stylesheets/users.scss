@@ -1,0 +1,33 @@
+// Place all the styles related to the Users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+body,h1 {
+    font-family: "Raleway",
+    sans-serif
+}
+body, html {
+    height: 100%
+}
+.bgimg {
+  background: linear-gradient(to top right, #00D5E5 , #2372E6, #5303D4, #9335FF);
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.logo {
+  height: 100px;
+}
+
+input[type=text]:focus {
+  border: 3px solid #2372E6;
+}
+
+form {
+    padding: 25px 50px;
+}

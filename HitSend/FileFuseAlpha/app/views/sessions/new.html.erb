@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<title>Login | FileFuse</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="shortcut icon" href="siteart/logo/Favicon.jpg">
+<body>
+
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  <div class="w3-display-topleft w3-padding-large w3-xlarge">
+    <%= image_tag  "logo/icon_white" , class:'logo', alt:'logo' %>
+  </div>
+  <div class="w3-display-middle" style="background-color:#333; padding:1%;">
+    <p id=”alert”><%= alert %></p>
+    <h1>Login</h1>
+    <%= form_tag sessions_path do |form| %>
+      <div class=”field”>
+        <%= label_tag :email %>
+        <%= text_field_tag :email %>
+      </div>
+      <div class=”field”>
+        <%= label_tag :password %>
+        <%= password_field_tag :password %>
+      </div>
+      <div class=”actions”>
+        <%= submit_tag 'Login' %>
+      </div>
+    <% end %>
+  </div>
+</div>
+
+</body>
+</html>
