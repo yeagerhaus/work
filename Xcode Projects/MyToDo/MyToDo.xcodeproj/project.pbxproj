@@ -13,6 +13,7 @@
 		6FC3A76E24AFFB9200A80797 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FC3A76D24AFFB9200A80797 /* Assets.xcassets */; };
 		6FC3A77124AFFB9200A80797 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FC3A77024AFFB9200A80797 /* Preview Assets.xcassets */; };
 		6FC3A77424AFFB9200A80797 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FC3A77224AFFB9200A80797 /* LaunchScreen.storyboard */; };
+		6FC3A77E24AFFEDF00A80797 /* ToDoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC3A77D24AFFEDF00A80797 /* ToDoList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6FC3A77024AFFB9200A80797 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6FC3A77324AFFB9200A80797 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6FC3A77524AFFB9200A80797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FC3A77D24AFFEDF00A80797 /* ToDoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				6FC3A77224AFFB9200A80797 /* LaunchScreen.storyboard */,
 				6FC3A77524AFFB9200A80797 /* Info.plist */,
 				6FC3A76F24AFFB9200A80797 /* Preview Content */,
+				6FC3A77D24AFFEDF00A80797 /* ToDoList.swift */,
 			);
 			path = MyToDo;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				6FC3A76824AFFB8D00A80797 /* AppDelegate.swift in Sources */,
 				6FC3A76A24AFFB8D00A80797 /* SceneDelegate.swift in Sources */,
 				6FC3A76C24AFFB8D00A80797 /* ContentView.swift in Sources */,
+				6FC3A77E24AFFEDF00A80797 /* ToDoList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,6 +166,7 @@
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 /* End PBXVariantGroup section */
 
