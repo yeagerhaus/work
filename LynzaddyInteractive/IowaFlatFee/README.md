@@ -1,0 +1,1 @@
+This is a quick logo design and style guide I whipped up for Lynzaddy Interactive for IowaFlatFee's website.
