@@ -1,7 +1,8 @@
-This is my Repository for work projects only.
+This is my Repository for work projects only.  This Repo contains examples of work I've done for clients but does not contain any copyrighted or private material.
 
-I am currently working on projects for HitSend (Formerly FileFuse and SessionFuse), NuVibe Juice and Java (I am currently the Senior Web Developer for Nuvibe), and Lynzaddy Interactive.
-
-This Repo is for private use by Cole Yeager ONLY
+I am currently working on projects for:
+-HitSend (Formerly FileFuse and SessionFuse)
+-NuVibe Juice & Java (I am currently the Senior Web Developer for Nuvibe)
+-Lynzaddy Interactive.
 
 -Cole Yeager
