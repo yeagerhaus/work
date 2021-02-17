@@ -2,7 +2,7 @@ This is my Repository for work projects only.  This Repo contains examples of wo
 
 I am currently working on projects for:
 -HitSend (Formerly FileFuse and SessionFuse)
--NuVibe Juice & Java (I am currently the Senior Web Developer for Nuvibe)
+-NuVibe Juice & Java (I am currently the Web Developer for Nuvibe)
 -Lynzaddy Interactive.
 
 -Cole Yeager
